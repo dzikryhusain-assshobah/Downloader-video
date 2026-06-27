@@ -33,7 +33,7 @@
       navigator.serviceWorker.register('/sw.js').catch(console.error);
     }
 
-    const BACKEND_URL = 'http://localhost:5000'; // Ganti dengan URL backend saat deploy
+    const BACKEND_URL = 'https://downloader-video-production.up.railway.app';
 
     async function startDownload() {
       const url = document.getElementById('urlInput').value.trim();
